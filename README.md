@@ -22,3 +22,8 @@ And run it:
 ```
 ./SmarterTime*.AppImage
 ```
+
+### Retrieve your login informations
+
+On the mobile app, roll out the menu on the left and click on `My Devices`.  
+Then click on the `+` button (top right) and the email and code will be provided.  

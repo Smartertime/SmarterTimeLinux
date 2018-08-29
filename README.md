@@ -4,6 +4,12 @@
   <img src="https://www.androidplanet.nl/wp-content/uploads/2018/01/smartertime-580x375.jpg" alt="smartertime-logo">
 </h1>
 
+# Content
+- [Getting Started](#getting-started)
+  * [Prequisites](#prequisites)
+  * [Usage](#usage)
+    + [Retrieve your login informations](#retrieve-your-login-informations)
+
 ## Getting Started
 
 ### Prequisites

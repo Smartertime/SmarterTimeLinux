@@ -13,7 +13,7 @@ The name of the file should be `SmarterTime*.AppImage`. Then mark it executable:
 ```
 chmod a+x SmarterTime*.AppImage
 ```
-Then run it:
+And run it:
 ```
 ./SmarterTime*.AppImage
 ```

@@ -6,6 +6,11 @@
 
 ## Getting Started
 
+### Prequisites
+
+You may need to install `xdotool` on your environment (it's installed by default on most Linux distros).
+If you don't have it, please check this page: https://blog.hostonnet.com/installation-of-xdotool-on-linux
+
 ### Usage
 
 Download the `AppImage` file that is available on the [releases page](https://github.com/Smartertime/SmarterTimeLinux/releases).  
@@ -17,8 +22,3 @@ And run it:
 ```
 ./SmarterTime*.AppImage
 ```
-
-### Prequisites
-
-You may need to install `xdotool` on your environment (it's installed by default on most Linux distros).
-If you don't have it, please check this page: https://blog.hostonnet.com/installation-of-xdotool-on-linux

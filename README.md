@@ -1,7 +1,7 @@
 # Smarter Time Linux Releases
 
 <h1 align="center">
-  <img src="https://www.smartertime.com/wp-content/uploads/2016/08/FullLogo-1.png" alt="smartertime-logo">
+  <img src="https://www.androidplanet.nl/wp-content/uploads/2018/01/smartertime-580x375.jpg" alt="smartertime-logo">
 </h1>
 
 ## Getting Started

@@ -21,9 +21,10 @@
 You may need to install `xdotool` on your environment (it's installed by default on most Linux distros).
 If you don't have it, please check this page: https://blog.hostonnet.com/installation-of-xdotool-on-linux.  
   
-A Java environment is also required, see [Install Java on Linux](https://www.wikihow.com/Install-Java-on-Linux). You may also need to set your `JAVA_HOME` environment variable. In a terminal, open with your text editor `/etc/environment`:
 
 #### Java
+
+A Java environment is also required, see [Install Java on Linux](https://www.wikihow.com/Install-Java-on-Linux). You may also need to set your `JAVA_HOME` environment variable. In a terminal, open with your text editor `/etc/environment`:
 
 ```
 sudo nano /etc/environment

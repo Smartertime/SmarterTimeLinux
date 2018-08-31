@@ -45,7 +45,7 @@ readlink -f $(which java)
 Save and exit the file then source it:
 
 ```
-sudo source /etc/environment
+source /etc/environment
 ```
 
 ### Usage

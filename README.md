@@ -8,7 +8,6 @@
 - [Getting Started](#getting-started)
   * [Prequisites](#prequisites)
     + [Xdotool](#xdotool)
-    + [Java](#java)
   * [Usage](#usage)
     + [Retrieve your login informations](#retrieve-your-login-informations)
 

@@ -9,8 +9,8 @@
   * [Prequisites](#prequisites)
     + [Xdotool](#xdotool)
   * [Usage](#usage)
-    + [Crash Reports](#crash-reports)
     + [Retrieve your login informations](#retrieve-your-login-informations)
+    + [Crash Reports](#crash-reports)
 
 ## Getting Started
 

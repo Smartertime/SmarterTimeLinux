@@ -10,6 +10,7 @@
     + [Xdotool](#xdotool)
   * [Usage](#usage)
     + [Retrieve your login informations](#retrieve-your-login-informations)
+    + [Update Smartertime](#update-smartertime)
     + [Crash Reports](#crash-reports)
 
 ## Getting Started
@@ -40,9 +41,9 @@ Then click on the `+` button (top right) and the email and code will be provided
 
 #### Update Smartertime
 
-Smartertime is weekly updated (it asks for your permission) or you can manually update it.  
-  
-Run Smartertime then click on `Help > Check for Updates`.  
+Smartertime is weekly updated (it asks for your permission before).
+
+Or you can also manually update it: run Smartertime then click on `Help > Check for Updates`.  
 After the update, there are two `.AppImage` files: the new updated one and the old one, you can remove the last one by running:
 
 ```

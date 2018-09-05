@@ -36,3 +36,10 @@ And run it:
 
 On the mobile app, roll out the menu on the left and click on `My Devices`.  
 Then click on the `+` button (top right) and the email and code will be provided.  
+
+#### Crash Reports
+
+Whenever the app crashes, a log file is automatically filled and sent.  
+You may disable this behavior by running Smartertime and unchecking the option in `Help > Send Crash Reports`.
+  
+Crash logs are also stored in `/tmp/smartertime_crashlogs/`.

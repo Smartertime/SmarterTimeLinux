@@ -55,4 +55,4 @@ rm SmarterTime-*.AppImage.zs-old
 Whenever the app crashes, a log file is automatically filled and sent.  
 You may disable this behavior by running Smartertime and unchecking the option in `Help > Send Crash Reports`.
   
-Crash logs are also stored in `/tmp/smartertime_crashlogs/`.
+Crash logs are also stored locally in `/tmp/smartertime_crashlogs/`.

@@ -38,6 +38,17 @@ And run it:
 On the mobile app, roll out the menu on the left and click on `My Devices`.  
 Then click on the `+` button (top right) and the email and code will be provided.  
 
+#### Update Smartertime
+
+Smartertime is weekly updated (it asks for your permission) or you can manually update it.  
+  
+Run Smartertime then click on `Help > Check for Updates`.  
+After the update, there are two `.AppImage` files: the new updated one and the old one, you can remove the last one by running:
+
+```
+rm SmarterTime-*.AppImage.zs-old
+```
+
 #### Crash Reports
 
 Whenever the app crashes, a log file is automatically filled and sent.  

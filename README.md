@@ -43,7 +43,14 @@ Then click on the `+` button (top right) and the email and code will be provided
 
 Smartertime is weekly updated (it asks for your permission before).
 
-Or you can also manually update it: run Smartertime then click on `Help > Check for Updates`.  
+Or manually update it: run Smartertime then click on `Help > Check for Updates`.  
+  
+If for any reason you can't run Smartertime, you can still update it by downloading AppImageUpdate tool on this [page](https://github.com/AppImage/AppImageUpdate/releases/). Look for `AppImageUpdate-*.AppImage` then apply it on Smartertime AppImage as follows:
+
+```
+./AppImageUpdate-*.AppImage SmarterTime-*.AppImage
+```
+
 After the update, there are two `.AppImage` files: the new updated one and the old one, you can remove the last one by running:
 
 ```

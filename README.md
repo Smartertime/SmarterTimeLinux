@@ -45,7 +45,8 @@ Smartertime is weekly updated (it asks for your permission before).
 
 Or manually update it: run Smartertime then click on `Help > Check for Updates`.  
   
-If for any reason you can't run Smartertime, you can still update it by downloading AppImageUpdate tool on this [page](https://github.com/AppImage/AppImageUpdate/releases/). Look for `AppImageUpdate-*.AppImage` then apply it on Smartertime AppImage as follows:
+If for any reason you can't run Smartertime, you can still update it by downloading AppImageUpdate tool on this [page](https://github.com/AppImage/AppImageUpdate/releases/).  
+Look for `AppImageUpdate-*.AppImage` then apply it on Smartertime AppImage as follows:
 
 ```
 ./AppImageUpdate-*.AppImage SmarterTime-*.AppImage

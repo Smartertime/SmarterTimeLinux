@@ -14,6 +14,7 @@
     + [Retrieve your login informations](#retrieve-your-login-informations)
     + [Update Smartertime](#update-smartertime)
     + [Crash Reports](#crash-reports)
+- [Release Notes](#release-notes)
 
 ## Getting Started
 
@@ -81,5 +82,5 @@ Crash logs are also stored locally in `/tmp/smartertime_crashlogs/`.
 
 ## Release Notes
 
-**09/11**:
+**09/11**:  
     - Minor bugs fixed

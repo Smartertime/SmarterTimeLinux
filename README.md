@@ -82,5 +82,5 @@ Crash logs are also stored locally in `/tmp/smartertime_crashlogs/`.
 
 ## Release Notes
 
-**09/11**:  
-    - Minor bugs fixed
+**09/11**:
+- Minor bugs fixed

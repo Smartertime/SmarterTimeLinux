@@ -29,7 +29,7 @@ If you don't have it, please check this page: https://blog.hostonnet.com/install
 
 This is installed by default on most distros.  
   
-On Debian/Ubuntu: `sudo apt-get install grep`.
+On Debian/Ubuntu: `sudo apt-get install grep`
 
 #### strings
 

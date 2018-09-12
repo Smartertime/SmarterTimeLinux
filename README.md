@@ -8,6 +8,8 @@
 - [Getting Started](#getting-started)
   * [Prequisites](#prequisites)
     + [Xdotool](#xdotool)
+    + [grep](#grep)
+    + [strings](#strings)
   * [Usage](#usage)
     + [Retrieve your login informations](#retrieve-your-login-informations)
     + [Update Smartertime](#update-smartertime)
@@ -21,6 +23,18 @@
 
 You may need to install `xdotool` on your environment (it's installed by default on most Linux distros).
 If you don't have it, please check this page: https://blog.hostonnet.com/installation-of-xdotool-on-linux.
+
+#### grep
+
+This is installed by default on most distros.  
+  
+On Debian/Ubuntu: `sudo apt-get install grep`.
+
+#### strings
+
+Also installed by defaults on most distros.  
+  
+On Debian/Ubuntu: `sudo apt-get install binutils`
 
 ### Usage
 

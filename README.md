@@ -82,6 +82,9 @@ Crash logs are also stored locally in `/tmp/smartertime_crashlogs/`.
 
 ## Release Notes
 
+**09/14**:
+- Fixed a bug where more than one device was created when signg in
+
 **09/12**:
 - Chrome tab's URL is now sent to device
 - Device name and email is stored locally for re-use

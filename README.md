@@ -82,6 +82,9 @@ Crash logs are also stored locally in `/tmp/smartertime_crashlogs/`.
 
 ## Release Notes
 
+**09/17**:
+- Automatically sign-in when running the app (still requires a first connection)
+
 **09/14**:
 - Fixed a bug where more than one device was created when signing in
 

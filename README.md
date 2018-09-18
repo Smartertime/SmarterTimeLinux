@@ -14,6 +14,7 @@
     + [Retrieve your login informations](#retrieve-your-login-informations)
     + [Update Smartertime](#update-smartertime)
     + [Crash Reports](#crash-reports)
+    + [Run SmarterTime on Boot](#run-smartertime-on-boot)
 - [Release Notes](#release-notes)
 
 ## Getting Started
@@ -79,6 +80,13 @@ Whenever the app crashes, a log file is automatically filled and sent.
 You may disable this behavior by running Smartertime and unchecking the option in `Help > Send Crash Reports`.
   
 Crash logs are also stored locally in `/tmp/smartertime_crashlogs/`.
+
+#### Run SmarterTime on boot
+
+##### Alternative #1
+
+On Ubuntu, press Super Key (Windows key) then look for `Startup Applications` and open it. 
+Click on `Add` button then look for `SmarterTime-*.AppImage` and add it, that's it, the job's done!
 
 ## Release Notes
 

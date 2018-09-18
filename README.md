@@ -15,6 +15,7 @@
     + [Update Smartertime](#update-smartertime)
     + [Crash Reports](#crash-reports)
     + [Run SmarterTime on Boot](#run-smartertime-on-boot)
+        - [Solution 1](#solution-1)
 - [Release Notes](#release-notes)
 
 ## Getting Started
@@ -83,10 +84,11 @@ Crash logs are also stored locally in `/tmp/smartertime_crashlogs/`.
 
 #### Run SmarterTime on boot
 
-##### Alternative #1
+##### Solution 1
 
 On Ubuntu, press Super Key (Windows key) then look for `Startup Applications` and open it. 
-Click on `Add` button then look for `SmarterTime-*.AppImage` and add it, that's it, the job's done!
+Click on `Add` button then look for `SmarterTime-*.AppImage` and add it, that's it, the job's done!  
+See https://help.ubuntu.com/stable/ubuntu-help/startup-applications.html.en for further details
 
 ## Release Notes
 

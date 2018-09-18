@@ -16,6 +16,7 @@
     + [Crash Reports](#crash-reports)
     + [Run SmarterTime on Boot](#run-smartertime-on-boot)
         - [Solution 1](#solution-1)
+        - [Solution 2](#solution-2)
 - [Release Notes](#release-notes)
 
 ## Getting Started
@@ -89,6 +90,22 @@ Crash logs are also stored locally in `/tmp/smartertime_crashlogs/`.
 On Ubuntu, press Super Key (Windows key) then look for `Startup Applications` and open it. 
 Click on `Add` button then look for `SmarterTime-*.AppImage` and add it, that's it, the job's done!  
 See https://help.ubuntu.com/stable/ubuntu-help/startup-applications.html.en for further details
+
+##### Solution 2
+
+If you have enabled `crontab`, then type in terminal:
+
+```
+crontab -e
+```
+
+Then add the following line:
+
+```
+@reboot PATH/TO/SMARTERTIME.APPIMAGE
+```
+
+To get the absolute path of a file, use `readlink -f SmarterTime-*.AppImage`.
 
 ## Release Notes
 

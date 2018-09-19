@@ -116,9 +116,6 @@ To get the absolute path of a file, use `readlink -f SmarterTime-*.AppImage`.
 - Fixed a bug where more than one device was created when signing in
 
 **09/12**:
-- Chrome tab's URL is now sent to device
+- Chrome tab's URL is now sent to device ( **BETA** )
 - Device name and email is stored locally for re-use
 - Process is now appearing as `Smartertime`
-
-**09/11**:
-- Minor bugs fixed

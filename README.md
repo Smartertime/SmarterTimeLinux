@@ -10,6 +10,7 @@
     + [Xdotool](#xdotool)
     + [grep](#grep)
     + [strings](#strings)
+    + [python](#python)
   * [Usage](#usage)
     + [Retrieve your login informations](#retrieve-your-login-informations)
     + [Update Smartertime](#update-smartertime)

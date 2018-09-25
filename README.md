@@ -40,6 +40,10 @@ Also installed by defaults on most distros.
   
 On Debian/Ubuntu: `sudo apt-get install binutils`
 
+##### python
+
+Only required if you're using Firefox, see https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-linux-python.html
+
 ### Usage
 
 Download the `AppImage` file that is available on the [releases page](https://github.com/Smartertime/SmarterTimeLinux/releases).  

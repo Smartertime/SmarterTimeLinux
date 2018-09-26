@@ -92,7 +92,7 @@ Download the plugin: https://addons.mozilla.org/en-US/firefox/addon/smartertime-
 If you want to set it for global users, then copy `getfirefoxmessage.json` in `/usr/{lib,lib64,share}/mozilla/native-messaging-hosts/` as follows:
 
 ```
-sudo mv ~/.mozilla/native-messaging-hosts/getfirefoxmessage.json /usr/lib/mozilla/native-messaging-hosts/
+sudo cp ~/.mozilla/native-messaging-hosts/getfirefoxmessage.json /usr/lib/mozilla/native-messaging-hosts/
 ```
 
 Be sure to replace `lib` with the correct value.

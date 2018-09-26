@@ -50,11 +50,11 @@ Only required if you're using Firefox, see https://docs.aws.amazon.com/cli/lates
 
 Download the `AppImage` file that is available on the [releases page](https://github.com/Smartertime/SmarterTimeLinux/releases).  
 The name of the file should be `SmarterTime*.AppImage`. Then mark it executable:
-```
+```bash
 chmod a+x SmarterTime*.AppImage
 ```
 And run it:
-```
+```bash
 ./SmarterTime*.AppImage
 ```
 
@@ -72,7 +72,7 @@ Or manually update it: run Smartertime then click on `Help > Check for Updates`.
 If for any reason you can't run Smartertime, you can still update it by downloading AppImageUpdate tool on this [page](https://github.com/AppImage/AppImageUpdate/releases/).  
 Look for `AppImageUpdate-*.AppImage` then apply it on Smartertime AppImage as follows:
 
-```
+```bash
 ./AppImageUpdate-*.AppImage SmarterTime-*.AppImage
 ```
 
@@ -91,7 +91,7 @@ Download the plugin: https://addons.mozilla.org/en-US/firefox/addon/smartertime-
   
 If you want to set it for global users, then copy `getfirefoxmessage.json` in `/usr/{lib,lib64,share}/mozilla/native-messaging-hosts/` as follows:
 
-```
+```bash
 sudo cp ~/.mozilla/native-messaging-hosts/getfirefoxmessage.json /usr/lib/mozilla/native-messaging-hosts/
 ```
 
@@ -116,13 +116,13 @@ See https://help.ubuntu.com/stable/ubuntu-help/startup-applications.html.en for 
 
 If you have enabled `crontab`, then type in terminal:
 
-```
+```bash
 crontab -e
 ```
 
 Then add the following line:
 
-```
+```bash
 @reboot PATH/TO/SMARTERTIME.APPIMAGE
 ```
 

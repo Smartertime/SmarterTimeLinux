@@ -84,10 +84,11 @@ rm SmarterTime-*.AppImage.zs-old
 
 #### Firefox Plugin
 
+The plugin is still experimental and has been tested on `Ubuntu 18.04` for `Firefox 62.0 (64 Bit)`.  
 Note that `python` is required to use the plugin, see above section.  
   
-The plugin has been tested on `Ubuntu 18.04` for `Firefox 62.0 (64 Bit)`. Download the plugin: https://addons.mozilla.org/en-US/firefox/addon/smartertime-linux/ and you're done!
-    
+Download the plugin: https://addons.mozilla.org/en-US/firefox/addon/smartertime-linux/ and you're done!  
+  
 If you want to set it for global users, then copy `getfirefoxmessage.json` in `/usr/{lib,lib64,share}/mozilla/native-messaging-hosts/` as follows:
 
 ```

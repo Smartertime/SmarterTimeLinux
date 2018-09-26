@@ -86,48 +86,15 @@ rm SmarterTime-*.AppImage.zs-old
 
 Note that `python` is required to use the plugin, see above section.  
   
-The plugin has been tested on `Ubuntu 18.04` for `Firefox 62.0 (64 Bit)`. First, download the plugin: https://addons.mozilla.org/en-US/firefox/addon/smartertime-linux/  
-  
-Create `getfirefoxmessage.json` file:
+The plugin has been tested on `Ubuntu 18.04` for `Firefox 62.0 (64 Bit)`. Download the plugin: https://addons.mozilla.org/en-US/firefox/addon/smartertime-linux/ and you're done!
+    
+If you want to set it for global users, then copy `getfirefoxmessage.json` in `/usr/{lib,lib64,share}/mozilla/native-messaging-hosts/` as follows:
 
 ```
-touch getfirefoxmessage.json
+sudo mv ~/.mozilla/native-messaging-hosts/getfirefoxmessage.json /usr/lib/mozilla/native-messaging-hosts/
 ```
 
-Edit the file and add the following lines:
-
-```
-{
-    "path":"$HOME/.local/share/smartertime/.firefox/getfirefoxmessage.py",
-    "name":"getfirefoxmessage",
-    "description":"Retrieve active tab's URL and send it to Smartertime app.",
-    "allowed_extensions":["hello123@smartertime.com"],
-    "type":"stdio"
-}
-```
-
-Replace `$HOME` with its value (`echo $HOME`), e.g. the first line is for me:
-
-```
-{
-    "path":"/home/alex/.local/share/smartertime/.firefox/getfirefoxmessage.py",
-    ...
-}
-```
-
-Make sure it has read permissions:
-
-```
-chmod 644 getfirefoxmessage.json
-```
-
-Now move this file to `/usr/lib/mozilla/native-messaging-hosts`, you might need super-user permission:
-
-```
-sudo mv getfirefoxmessage.json /usr/lib/mozilla/native-messaging-hosts
-```
-
-And that's it!
+Be sure to replace `lib` with the correct value.
 
 #### Crash Reports
 

@@ -130,6 +130,10 @@ To get the absolute path of a file, use `readlink -f SmarterTime-*.AppImage`.
 
 ## Release Notes
 
+**09/26**:
+- Send Firefox's active tab's URL for local user
+- Fixed minor bug
+
 **09/25**:
 - Send Firefox's active tab's URL
 

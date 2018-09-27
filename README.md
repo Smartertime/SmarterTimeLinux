@@ -44,7 +44,7 @@ On Debian/Ubuntu: `sudo apt-get install binutils`
 
 ##### python
 
-Only required if you're using Firefox, see https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-linux-python.html
+Recommended if you're using Firefox or Chrome, see https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-linux-python.html
 
 ### Usage
 
@@ -81,6 +81,13 @@ After the update, there are two `.AppImage` files: the new updated one and the o
 ```
 rm SmarterTime-*.AppImage.zs-old
 ```
+
+#### Chrome Plugin
+
+The plugin is still experimental and has been tested on `Ubuntu 18.04` for `Chrome (69.0.3497.100 (Official Build) (64-bit))`.  
+Note that `python` is required to use the plugin, see above section.  
+  
+Dowload the plugin: https://chrome.google.com/webstore/detail/smartertime/jbfgcoefigmnjcagjbcfagobiahnkobn and you're done!
 
 #### Firefox Plugin
 
@@ -122,13 +129,16 @@ crontab -e
 
 Then add the following line:
 
-```bash
+```
 @reboot PATH/TO/SMARTERTIME.APPIMAGE
 ```
 
 To get the absolute path of a file, use `readlink -f SmarterTime-*.AppImage`.
 
 ## Release Notes
+
+**09/27**:
+- Send Chrome's active tab's URL for local user
 
 **09/26**:
 - Send Firefox's active tab's URL for local user

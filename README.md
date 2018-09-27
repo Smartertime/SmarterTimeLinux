@@ -14,6 +14,7 @@
   * [Usage](#usage)
     + [Retrieve your login informations](#retrieve-your-login-informations)
     + [Update Smartertime](#update-smartertime)
+    + [Chrome Plugin](#chrome-plugin)
     + [Firefox Plugin](#firefox-plugin)
     + [Crash Reports](#crash-reports)
     + [Run SmarterTime on Boot](#run-smartertime-on-boot)

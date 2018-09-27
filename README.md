@@ -85,7 +85,7 @@ rm SmarterTime-*.AppImage.zs-old
 
 #### Chrome Plugin
 
-The plugin is still experimental and has been tested on `Ubuntu 18.04` for `Chrome (69.0.3497.100 (Official Build) (64-bit))`.  
+The plugin is still experimental and has been tested on `Ubuntu 18.04` for `Chrome (69.0.3497.100 64-bit)`.  
 Note that `python` is required to use the plugin, see above section.  
   
 Dowload the plugin: https://chrome.google.com/webstore/detail/smartertime/jbfgcoefigmnjcagjbcfagobiahnkobn and you're done!

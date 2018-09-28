@@ -138,6 +138,11 @@ To get the absolute path of a file, use `readlink -f SmarterTime-*.AppImage`.
 
 ## Release Notes
 
+**09/28**:
+- Fixed a bug where weird visual effects may appear when signing-in
+- Fixed a bug that could cause the PC to crash
+- Fixed minor bugs
+
 **09/27**:
 - Send Chrome's active tab's URL for local user
 
@@ -153,8 +158,3 @@ To get the absolute path of a file, use `readlink -f SmarterTime-*.AppImage`.
 
 **09/14**:
 - Fixed a bug where more than one device was created when signing in
-
-**09/12**:
-- ( **BETA** ) Chrome tab's URL is now sent to device
-- Device name and email is stored locally for re-use
-- Process is now appearing as `Smartertime`

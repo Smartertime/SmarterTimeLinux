@@ -138,6 +138,11 @@ To get the absolute path of a file, use `readlink -f SmarterTime-*.AppImage`.
 
 ## Release Notes
 
+**12/05**:
+- Fixed a crash that may happen when using Chrome.
+- Fixed a bug when user suddenly loses connection to Internet.
+- Display an error message if active window name cannot be found.
+
 **09/28**:
 - Fixed a bug where weird visual effects may appear when signing-in
 - Fixed a bug that could cause the PC to crash

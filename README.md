@@ -138,6 +138,9 @@ To get the absolute path of a file, use `readlink -f SmarterTime-*.AppImage`.
 
 ## Release Notes
 
+**03/19**:
+- Fixed memory leaks with Firefox & Chrome plugins.
+
 **12/05**:
 - Fixed a crash that may happen when using Chrome.
 - Fixed a bug when user suddenly loses connection to Internet.
